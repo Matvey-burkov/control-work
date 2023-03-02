@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+cout << "enter number - ";
+int number;
+cin >> number;
+int count = 0;
+for (int i = -1; i >= number; i-= 2){
+    count += i;
+}
+cout << count;
+
+  
+
+ return 0;
+ 
+ }
